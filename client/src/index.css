@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-950 text-gray-100;
+}
+
+@layer components {
+  .modal {
+    @apply w-[80%] max-w-[40rem] p-5 bg-gray-300 rounded-xl shadow-md;
+  }
+}
